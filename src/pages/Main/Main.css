@@ -19,7 +19,7 @@ textarea {
 .wrapper-modals {
     padding: 20px;
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: row;
     column-gap: 40px;
 }
