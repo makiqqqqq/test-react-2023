@@ -1,0 +1,33 @@
+.wrapper-modal-item {
+    width: auto;
+    margin-top: 16px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.flex-gap {
+    column-gap: 16px;
+}
+
+.delete-btn {
+    border: 1px solid red;
+    color: red;
+    background: white;
+}
+
+.delete-btn:hover {
+    background-color: red;
+    color: white;
+}

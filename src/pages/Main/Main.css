@@ -1,0 +1,74 @@
+input {
+    width: 100%;
+}
+
+textarea {
+    height: 38px;
+    min-width: 50px;
+    max-width: 318px;
+    padding: 10px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    column-gap: 60px;
+    height: 100vh;
+}
+
+.wrapper-modals {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 40px;
+}
+
+@media (width <= 1440px) {
+    .wrapper-modals {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}
+
+.add-btn {
+    background: #17a2b8;
+    padding: 10px;
+    height: 38px;
+}
+
+.add-btn:hover {
+    background-color: #138496;
+}
+
+.comments-btn {
+    background: #007bff;
+    padding: 20px 10px;
+}
+
+.comments-btn:hover {
+    background-color: #0069d9;
+}
+
+.add-input {
+    width: 100%;
+    padding: 0 8px;
+}
+
+.color-input {
+    height: 60px;
+}
+
+.wrapper-items_modal {
+    width: 100%;
+    display: grid;
+    grid-template-columns:  1fr 90px;
+    column-gap: 32px;
+}
+
+.wrapper-comments_modal {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60px 1fr 90px;
+    column-gap: 16px;
+}

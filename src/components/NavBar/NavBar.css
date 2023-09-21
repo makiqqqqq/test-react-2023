@@ -1,0 +1,20 @@
+.navbar {
+    text-align: center;
+}
+
+.navbar-wrapper{
+    background: #2b2f3e;
+    padding: 16px;
+}
+
+.navbar-title{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.navbar-subtitle{
+    color: gray;
+    font-size: 16px;
+}

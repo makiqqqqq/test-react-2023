@@ -1,0 +1,14 @@
+.wrapper{
+    width: 500px;
+    padding: 20px;
+    border: 1px solid black;
+    height: max-content;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+}
+.wrapper-title {
+    margin-bottom: 10px;
+}
+
+.title {
+    color: gray;
+}
